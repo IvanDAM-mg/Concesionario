@@ -37,6 +37,6 @@ public class MotorTest {
         Propietario p2 = new Propietario("Luis", "Perez", "0675432X", 31);
         Coche c1 = new Coche("Ford", "Fiesta", 2008, 2021,motor,p1);
         c1.setPropietario(p2);
-        assertEquals("Luis", c1.getPropietario());
+        assertEquals("Luis", c1.getPropietario().getNombre());
     }
 }
