@@ -6,10 +6,11 @@ public class Motor {
     private String estadoMotor;
     private Potencia potencia;
 
-    public Motor(String tipoMotor, int numeroMotor, String estadoMotor) {
+    public Motor(String tipoMotor, int numeroMotor, String estadoMotor, Potencia potencia) {
         this.tipoMotor = tipoMotor;
         this.numeroMotor = numeroMotor;
         this.estadoMotor = estadoMotor;
+        this.potencia = potencia;
     }
     
     public float calculaPrecio() {

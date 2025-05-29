@@ -9,11 +9,13 @@ public class Coche {
     private int ultimaITV;
 
 
-public Coche(String marca, String modelo, int añoCoche, int ultimaITV){
+public Coche(String marca, String modelo, int añoCoche, int ultimaITV, Motor motor, Propietario propietario){
     this.marca = marca;
     this.modelo = modelo;
     this.añoCoche = añoCoche;
     this.ultimaITV = ultimaITV;
+    this.motor = motor;
+    this.propietario = propietario;
 }
 
     @Override
